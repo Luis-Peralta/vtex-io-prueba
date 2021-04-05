@@ -1,0 +1,47 @@
+--------------------------------------------
+1- instalar node js
+2- instalar yarn (npm install -g yarn)
+3- instalar vtex (yarn global add vtex)
+4- hacer login (vtex login 'nombre de la cuenta')
+5- vtex <-- escribir en la consola para saber la version(agregada previamente a variables de entorno)
+-------------------------------------------
+crear workspace:
+1- vtex workspace create 'nombre'
+2-vtex workspace list (para ver la lista de workspaces) o vtex workspace ls
+
+para trabajar en ese workspace:
+3- vtex workspace use 'nombre de tu workspace'
+
+Metodo simplificado para crear y usar ese workspace:
+4- vtex use 'nombre del workspace'
+5- confirmar creación.
+
+para eliminar workspace:
+vtex workspace delete 'nombre de tu workspace' (tienen que usar otro workspace)
+
+para ver información del workspace:
+vtex workspace info (nombre del que se esta trabajando, si es de tipo production o no, y el trafico)
+vtex workspace status (info extra)
+
+para abrir el navegador
+vtex browse
+
+para volver a tener los cambios del master actual:
+vtex workspace reset (tu worskpace se pone al dia, con los cambios del master)
+-----------------------------------------------
+
+para crear un theme:
+1- vtex init (enter en store)
+2- confirmar
+3- se crea unos archivos, donde se encuentra el manifest.json
+
+para saber si esta logueado:
+vtex whoami
+
+para subir cambios:
+vtex link
+
+*ctrl+c para detener el link
+
+para que vuelva a ser una copia de master:
+vtex unlink
