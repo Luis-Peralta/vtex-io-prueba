@@ -3,7 +3,8 @@
     "blocks": [
       "rich-text",
       "rich-text#Desc",
-      "info-card"
+      "info-card",
+      "info-card#button-left"
     ]
   },
   //comment
@@ -27,12 +28,25 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-      "headline": "Vintage Pink",
+      "headline": "Producto 1",
       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
       "callToActionMode": "button",
-      "callToActionText": "Explore",
+      "callToActionText": "Ingresar",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
+    }
+  },
+
+  "info-card#button-left": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+    "headline": "Producto 2",
+    "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+    "callToActionMode": "link",
+    "callToActionText": "Go to collection",
+    "textAlignment": "center"
     }
   }
 
